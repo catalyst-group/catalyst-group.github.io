@@ -1,0 +1,173 @@
+.navbar-default .lang {
+    color: #416650;
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 1px;
+    font-size: 13px;
+    margin-top: 11px;
+    margin-bottom: 10px;
+}
+
+.navbar-default .separatore {
+    color: #000;
+}
+
+.navbar-default .nav li .lang a {
+    padding: 0;
+}
+
+header .container {
+    width: 100%;
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    -moz-align-items: center;
+    -ms-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    -moz-justify-content: center;
+    -ms-justify-content: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+header .container > * {
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    -webkit-box-flex: 1;
+    flex: 1;
+}
+
+header .intro-text img {
+    margin: 30px auto;
+    width: 60%;
+    -webkit-filter: drop-shadow(0px 0px 9px rgba(255, 255, 255, 0.5));
+    -ms-filter: drop-shadow(0px 0px 9px rgba(255, 255, 255, 0.5));
+    filter: drop-shadow(0px 0px 9px rgba(255, 255, 255, 0.5));
+}
+
+header .intro-text .intro-lead-in,
+header .intro-text .intro-heading {
+    text-shadow: 0px 0px 9px #fff;
+}
+
+.modal-body ul,
+.modal-body ol,
+.modal-body .fotorama,
+.contact-btn {
+    margin: 30px 0;
+}
+
+{
+    margin: 30px 0;
+}
+
+.prod {
+    margin: 30px 0;
+}
+
+#group .img-responsive.img-circle {
+    margin: 0 auto;
+    border: 7px solid #416650;
+}
+
+.fasi {
+    text-align: center;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+.fasi .header {
+    background: #416650;
+    color: #fff;
+}
+
+.fasi .header h3 {
+    margin: 10px 0;
+}
+
+.fasi .colonna {
+    border-bottom: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+}
+
+.fasi h5 {
+    font-size: 11px;
+    min-height: 30px;
+    border-bottom: 1px solid #ccc;
+}
+
+.fasi .svg {
+    max-height: 180px;
+}
+
+.fasi .svg img {
+    height: 150px;
+    width: 150px;
+    padding: 10px 0;
+}
+
+.fotorama__nav {
+    border-bottom: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+}
+
+#contact address {
+    background: rgba(255, 255, 255, 0.49);
+    padding: 20px;
+    font-size: 20px
+}
+/*==================================================
+=            Bootstrap 3 Media Queries             =
+==================================================*/
+/*==========  Mobile First Method  ==========*/
+/* Custom, iPhone Retina */
+
+@media only screen and (min-width: 320px) {}
+/* Extra Small Devices, Phones */
+
+@media only screen and (min-width: 480px) {}
+/* Small Devices, Tablets */
+
+@media only screen and (min-width: 768px) {}
+/* Medium Devices, Desktops */
+
+@media only screen and (min-width: 992px) {
+    .fase1 {
+        border-right: 1px solid #fff;
+    }
+    .fase2 {
+        border-left: 1px solid #fff;
+    }
+}
+/* Large Devices, Wide Screens */
+
+@media only screen and (min-width: 1200px) {}
+/*==========  Non-Mobile First Method  ==========*/
+/* Large Devices, Wide Screens */
+
+@media only screen and (max-width: 1200px) {}
+/* Medium Devices, Desktops */
+
+@media only screen and (max-width: 992px) {}
+/* Small Devices, Tablets */
+
+@media only screen and (max-width: 768px) {
+    header .intro-text img {
+        width: 80%;
+    }
+}
+/* Extra Small Devices, Phones */
+
+@media only screen and (max-width: 480px) {}
+/* Custom, iPhone Retina */
+
+@media only screen and (max-width: 320px) {}
